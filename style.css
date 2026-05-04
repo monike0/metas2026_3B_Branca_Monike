@@ -51,3 +51,61 @@ body {
     border-radius: 40px 40px 0 0;
 }
 
+.botoes{
+    display: block;
+}
+
+.botao.ativo{
+    background-color: var(--botao-ativo);
+    border-bottom: 4px solid var(--grifar);
+    
+}
+
+.abas.textos{
+    background-color: var(--texto-fundo);
+    padding: 40px;
+    border-radius: 0 0 40px 40px;
+}
+
+.abas.conteudo.ativo{
+    display: block;
+}
+
+.aba.conteudo{
+    display: none;
+}
+
+.aba-conteudo-titulo-principal{
+    fonte-size: 28px;
+    text-align: center;
+}
+
+.aba-conteudo-titulo-secundario{
+    text-align: center;
+    color: var(--grifar);
+    text-transform: uppercase;
+}
+
+.contador-digito{
+    padding: 0 16px;
+    text-align: center;
+    min-width: 100px;
+}
+
+.contador-digito-texto{
+    color: var(--grifar);
+    font-size: 20px;
+    margin: 0;
+}
+
+@media screen and (min_width: 768px){
+    .botao{
+        display: flex;
+    }
+    .botao:first-child{
+        border-radius: 40px 0 0 0;
+    }
+    .botao:last-child{
+        border-radius: 0 40px 0 0;
+    }
+}
