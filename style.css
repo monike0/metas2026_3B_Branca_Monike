@@ -52,7 +52,7 @@ body {
 }
 
 .botoes{
-    display: block;
+    display: flex;
 }
 
 .botao.ativo{
@@ -84,6 +84,12 @@ body {
     text-align: center;
     color: var(--grifar);
     text-transform: uppercase;
+}
+
+.contador{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .contador-digito{
