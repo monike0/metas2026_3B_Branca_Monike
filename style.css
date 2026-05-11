@@ -92,6 +92,11 @@ body {
     min-width: 100px;
 }
 
+.contador-digito-numero{
+    font-size: 80px;
+    margin: 0;
+}
+
 .contador-digito-texto{
     color: var(--grifar);
     font-size: 20px;
