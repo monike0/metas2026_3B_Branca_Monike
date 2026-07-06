@@ -67,7 +67,7 @@ body {
     border-radius: 0 0 40px 40px;
 }
 
-.abas-conteudo.ativo{
+.aba-conteudo.ativo{
     display: block;
 }
 
@@ -109,7 +109,7 @@ body {
     margin: 0;
 }
 
-@media screen and (min_width: 768px){
+@media screen and (min-width: 768px){
     .botao{
         display: flex;
     }
